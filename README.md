@@ -47,3 +47,23 @@ The project follows the Page Object Model (POM) pattern and includes:
 1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/selenium-java-framework.git
+
+2. Import as Maven Project in Eclipse or IntelliJ
+
+3. Install dependencies
+mvn clean install
+
+4. Run the test suite
+mvn test
+
+5. View reports:
+Navigate to /reports/index.html to view ExtentReports summary
+
+
+🧪 Sample Test Scenario
+
+Launch the application
+Login with valid credentials
+Add item to cart
+Checkout and verify order confirmation
+Validate success message and order ID
