@@ -69,8 +69,13 @@ Navigate to
 🧪 Sample Test Scenario
 
 Launch the application
+
 Login with valid credentials
+
 Add item to cart
+
 Checkout and verify order confirmation
+
 Validate success message and order ID
+
 
