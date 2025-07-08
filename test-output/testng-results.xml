@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-28T02:52:46 EEST" name="Suite" finished-at="2025-06-28T02:53:15 EEST" duration-ms="28937">
+    <groups>
+    </groups>
+    <test started-at="2025-06-28T02:52:46 EEST" name="Error Validation Test" finished-at="2025-06-28T02:53:02 EEST" duration-ms="15759">
+      <class name="Omar.Tests.errorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:52:47 EEST" name="launchApplication" finished-at="2025-06-28T02:52:52 EEST" duration-ms="5095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="emailErrorValidation()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:52:52 EEST" name="emailErrorValidation" finished-at="2025-06-28T02:52:52 EEST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:52:52 EEST" name="tearDown" finished-at="2025-06-28T02:52:52 EEST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:52:52 EEST" name="launchApplication" finished-at="2025-06-28T02:52:56 EEST" duration-ms="3368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="emptyCartErrorValidation()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:52:56 EEST" name="emptyCartErrorValidation" finished-at="2025-06-28T02:52:57 EEST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCartErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:52:57 EEST" name="tearDown" finished-at="2025-06-28T02:52:57 EEST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:52:57 EEST" name="launchApplication" finished-at="2025-06-28T02:53:01 EEST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="passwordErrorValidation()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:53:01 EEST" name="passwordErrorValidation" finished-at="2025-06-28T02:53:02 EEST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.Tests.errorValidationTest@7f132176]" started-at="2025-06-28T02:53:02 EEST" name="tearDown" finished-at="2025-06-28T02:53:02 EEST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Omar.Tests.errorValidationTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-06-28T02:52:46 EEST" name="Submit Order Test" finished-at="2025-06-28T02:53:15 EEST" duration-ms="28937">
+      <class name="Omar.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:52:47 EEST" name="launchApplication" finished-at="2025-06-28T02:52:51 EEST" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:52:51 EEST" name="submitOrder" data-provider="getData" finished-at="2025-06-28T02:52:57 EEST" duration-ms="5664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName2=IPHONE 13 PRO, country=Egypt, validEmail=mohamedkhan@gmail.com, validPassword=mohamedKhan@123, productName1=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:52:57 EEST" name="tearDown" finished-at="2025-06-28T02:52:57 EEST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:52:57 EEST" name="launchApplication" finished-at="2025-06-28T02:53:01 EEST" duration-ms="3710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:53:01 EEST" name="submitOrder" data-provider="getData" finished-at="2025-06-28T02:53:06 EEST" duration-ms="5352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName2=ZARA COAT 3, country=Austria, validEmail=Omar1@123.com, validPassword=Omar@123, productName1=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:53:06 EEST" name="tearDown" finished-at="2025-06-28T02:53:06 EEST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:53:06 EEST" name="launchApplication" finished-at="2025-06-28T02:53:10 EEST" duration-ms="3743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkingOrderHistory(java.util.HashMap)[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:53:10 EEST" name="checkingOrderHistory" data-provider="getData" finished-at="2025-06-28T02:53:11 EEST" depends-on-methods="Omar.Tests.SubmitOrderTest.submitOrder" duration-ms="973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName2=IPHONE 13 PRO, country=Egypt, validEmail=mohamedkhan@gmail.com, validPassword=mohamedKhan@123, productName1=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:53:11 EEST" name="tearDown" finished-at="2025-06-28T02:53:11 EEST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:53:11 EEST" name="launchApplication" finished-at="2025-06-28T02:53:14 EEST" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkingOrderHistory(java.util.HashMap)[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:53:14 EEST" name="checkingOrderHistory" data-provider="getData" finished-at="2025-06-28T02:53:15 EEST" depends-on-methods="Omar.Tests.SubmitOrderTest.submitOrder" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productName2=ZARA COAT 3, country=Austria, validEmail=Omar1@123.com, validPassword=Omar@123, productName1=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOrderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Omar.Tests.SubmitOrderTest@45fd9a4d]" started-at="2025-06-28T02:53:15 EEST" name="tearDown" finished-at="2025-06-28T02:53:15 EEST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Omar.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
