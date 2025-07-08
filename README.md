@@ -62,23 +62,23 @@ mvn test
 ```
 
 5. View reports:
-Navigate to
+  Navigate to
 
-/reports/index.html
+  /reports/index.html
 
-to view ExtentReports summary
+  to view ExtentReports summary
 
 
 🧪 Sample Test Scenario
 
-  Launch the application
+  - Launch the application
 
-  Login with valid credentials
+  - Login with valid credentials
 
-  Add item to cart
+  - Add item to cart
 
-  Checkout and verify order confirmation
+  - Checkout and verify order confirmation
 
-  Validate success message and order ID
+  - Validate success message and order ID
 
 
