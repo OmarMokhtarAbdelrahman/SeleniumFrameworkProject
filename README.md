@@ -56,26 +56,29 @@ mvn clean install
  ```
 
 
-5. Run the test suite
+4. Run the test suite
  ```bash
 mvn test
 ```
 
-7. View reports:
-Navigate to 
-/reports/index.html to view ExtentReports summary
+5. View reports:
+Navigate to
+
+/reports/index.html
+
+to view ExtentReports summary
 
 
 🧪 Sample Test Scenario
 
-Launch the application
+  Launch the application
 
-Login with valid credentials
+  Login with valid credentials
 
-Add item to cart
+  Add item to cart
 
-Checkout and verify order confirmation
+  Checkout and verify order confirmation
 
-Validate success message and order ID
+  Validate success message and order ID
 
 
