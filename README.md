@@ -51,13 +51,19 @@ The project follows the Page Object Model (POM) pattern and includes:
 2. Import as Maven Project in Eclipse or IntelliJ
 
 3. Install dependencies
-mvn clean install
+ ```bash
+mvn clean install 
+ ```
 
-4. Run the test suite
+
+5. Run the test suite
+ ```bash
 mvn test
+```
 
-5. View reports:
-Navigate to /reports/index.html to view ExtentReports summary
+7. View reports:
+Navigate to 
+/reports/index.html to view ExtentReports summary
 
 
 🧪 Sample Test Scenario
@@ -67,3 +73,4 @@ Login with valid credentials
 Add item to cart
 Checkout and verify order confirmation
 Validate success message and order ID
+
